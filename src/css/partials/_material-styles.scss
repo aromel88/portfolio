@@ -1,0 +1,37 @@
+
+// Google materials standards for colors
+
+$primary-dark-text: rgba(0,0,0,0.87);
+$secondary-dark-text: rgba(0,0,0,0.54);
+$disabled-dark-text: rgba(0,0,0,0.38);
+
+$primary-light-text: rgba(255,255,255,0.87);
+$secondary-light-text: rgba(255,255,255,0.6);
+$disabled-light-text: rgba(255,255,255,0.4);
+
+// color scheme/styles for this page
+$primary-color: #83C886;
+$footer-color: #616861;
+$dark-background: #F0F0F0;
+$light-background: #FFFFFF;
+
+$Montserrat: 'Montserrat', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+section {
+  padding-top: 100px; padding-bottom: 100px;
+  h1 { font-size: 50pt; font-weight: $font-weight-medium; }
+  h2 {
+    font-size: 24pt;
+    font-weight: $font-weight-light;
+    margin-bottom: 50px;
+  }
+}
+section img {
+  display: block;
+  margin: auto;
+}
+
+h1, h2, h3 { width: 100%; text-align: center; }

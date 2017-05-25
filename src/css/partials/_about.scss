@@ -1,0 +1,23 @@
+#about {
+  width: 100%;
+  background-color: $primary-color;
+
+  img {
+    margin-right: 50px;
+    border-radius: 400px;
+    float: left;
+    shape-outside: circle();
+  }
+
+  h1, h2, p { color: $primary-light-text;}
+
+  p {
+    font-weight: $font-weight-light;
+    line-height: 26pt;
+    text-align: left;
+  }
+
+  .paragraph {
+    margin-top: 18pt;
+  }
+}

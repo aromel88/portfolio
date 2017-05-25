@@ -1,0 +1,19 @@
+
+#toolbelt {
+  width: 100%;
+  background-color: $dark-background;
+
+  h1, h2, h3, li { color: $primary-dark-text; }
+
+  h3 {
+    font-size: 24pt;
+    font-weight: $font-weight-medium;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 18pt;
+    font-weight: $font-weight-light;
+    margin-bottom: 10px;
+  }
+}
