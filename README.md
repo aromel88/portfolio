@@ -9,3 +9,5 @@
   <li>Babel - For ES6 in the browser</li>
   <li>Webpack - Bundle the stylesheets and the Javascript to allow for one request for all resources</li>
 </ul>
+
+![Alt text](screenshot.png?raw=true "Design Mockup")
