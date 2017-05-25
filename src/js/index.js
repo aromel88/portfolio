@@ -1,6 +1,5 @@
 
-import '../css/1200grid-12column.css'
-import '../css/styles.css';
+import '../css/styles.scss';
 
 const init = () => {
   console.log('yay!');

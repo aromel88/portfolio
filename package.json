@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/webpack --watch",
-    "runbuild": "./node_modules/.bin/webpack"
+    "devbuild": "./node_modules/.bin/webpack",
+    "prodbuild": "./node_modules/.bin/webpack -p"
   },
   "author": "Aaron Romel",
   "license": "ISC",
@@ -17,7 +18,9 @@
     "css-loader": "^0.28.2",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
+    "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.6.1"
