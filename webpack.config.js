@@ -1,6 +1,5 @@
 var webpack = require("webpack");
 var path = require('path');
-//require("url-loader?prefix=img/!./bg.jpg");
 
 module.exports = {
 	entry: "./src/js/index.js",
